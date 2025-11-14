@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['give-way', 'no-entry', 'no-stop', 'no-u-turn', 'road-work', 'round-about', 'sharp-turn', 'speed-limit', 'stop-sign']
+
+roboflow:
+  workspace: home-4mpge
+  project: traffic-signs-n95e3
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/home-4mpge/traffic-signs-n95e3/dataset/2
